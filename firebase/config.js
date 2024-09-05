@@ -11,6 +11,7 @@ import "firebase/firestore";
 import Constants from "expo-constants";
 const { extra } = Constants.expoConfig;
 
+
 export const firebaseConfig = {
   //для firestore database
   apiKey: extra.FIREBASE_API_KEY,

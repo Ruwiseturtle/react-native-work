@@ -20,9 +20,9 @@ const MapComponent = () => {
   const dispatch = useDispatch();
 
   useState(() => {
-    console.log("===============isMapVisible=====================");
-    console.log(isMapVisible);
-    console.log('====================================');
+    // console.log("===============isMapVisible=====================");
+    // console.log(isMapVisible);
+    // console.log('====================================');
   }, [isMapVisible]);
   // ф-ція, яка при натисненні на інпут, відкривається карта
   const handleInputPress = () => {
@@ -59,8 +59,8 @@ const MapComponent = () => {
     dispatch(setSelectedLocationToStore(coordinate));
     setSelectedLocation(coordinate);
 
-    console.log("координаты");
-    console.log(coordinate);
+    // console.log("координаты");
+    // console.log(coordinate);
 
     setLocationName(locationNameTmp);
     dispatch(setLocationNameToStore(locationNameTmp));
