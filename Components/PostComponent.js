@@ -18,7 +18,7 @@ const PostComponent = ({ post, userId, urlAvatar }) => {
         const updatedComments = doc.data().comments || [];
         setNumberComments(updatedComments.length);
       } else {
-        console.log("Документ не існує!");
+        console.log("Документ не існує! 1");
       }
     });
 

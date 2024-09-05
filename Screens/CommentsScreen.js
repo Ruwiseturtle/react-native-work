@@ -38,7 +38,7 @@ const CommentsScreen = ({ navigation, route }) => {
       if (doc.exists()) {
         setComments(doc.data().comments || []);
       } else {
-        console.log("Документ не існує!");
+        console.log("Документ не існує! 2");
       }
     });
 
